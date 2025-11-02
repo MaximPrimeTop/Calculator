@@ -202,6 +202,7 @@ namespace calculator
 			this->Btn_1->Name = L"Btn_1";
 			this->Btn_1->Size = System::Drawing::Size(80, 80);
 			this->Btn_1->TabIndex = 28;
+			this->Btn_1->TabStop = false;
 			this->Btn_1->Text = L"1";
 			this->Btn_1->UseVisualStyleBackColor = false;
 			this->Btn_1->Click += gcnew System::EventHandler(this, &Calculator::Btn_1_Click);
@@ -216,6 +217,7 @@ namespace calculator
 			this->Btn_2->Name = L"Btn_2";
 			this->Btn_2->Size = System::Drawing::Size(80, 80);
 			this->Btn_2->TabIndex = 27;
+			this->Btn_2->TabStop = false;
 			this->Btn_2->Text = L"2";
 			this->Btn_2->UseVisualStyleBackColor = false;
 			this->Btn_2->Click += gcnew System::EventHandler(this, &Calculator::Btn_2_Click);
@@ -230,6 +232,7 @@ namespace calculator
 			this->Btn_5->Name = L"Btn_5";
 			this->Btn_5->Size = System::Drawing::Size(80, 80);
 			this->Btn_5->TabIndex = 25;
+			this->Btn_5->TabStop = false;
 			this->Btn_5->Text = L"5";
 			this->Btn_5->UseVisualStyleBackColor = false;
 			this->Btn_5->Click += gcnew System::EventHandler(this, &Calculator::Btn_5_Click);
@@ -244,6 +247,7 @@ namespace calculator
 			this->Btn_4->Name = L"Btn_4";
 			this->Btn_4->Size = System::Drawing::Size(80, 80);
 			this->Btn_4->TabIndex = 26;
+			this->Btn_4->TabStop = false;
 			this->Btn_4->Text = L"4";
 			this->Btn_4->UseVisualStyleBackColor = false;
 			this->Btn_4->Click += gcnew System::EventHandler(this, &Calculator::Btn_4_Click);
@@ -258,6 +262,7 @@ namespace calculator
 			this->Btn_6->Name = L"Btn_6";
 			this->Btn_6->Size = System::Drawing::Size(80, 80);
 			this->Btn_6->TabIndex = 23;
+			this->Btn_6->TabStop = false;
 			this->Btn_6->Text = L"6";
 			this->Btn_6->UseVisualStyleBackColor = false;
 			this->Btn_6->Click += gcnew System::EventHandler(this, &Calculator::Btn_6_Click);
@@ -272,6 +277,7 @@ namespace calculator
 			this->Btn_3->Name = L"Btn_3";
 			this->Btn_3->Size = System::Drawing::Size(80, 80);
 			this->Btn_3->TabIndex = 24;
+			this->Btn_3->TabStop = false;
 			this->Btn_3->Text = L"3";
 			this->Btn_3->UseVisualStyleBackColor = false;
 			this->Btn_3->Click += gcnew System::EventHandler(this, &Calculator::Btn_3_Click);
@@ -286,6 +292,7 @@ namespace calculator
 			this->Btn_9->Name = L"Btn_9";
 			this->Btn_9->Size = System::Drawing::Size(80, 80);
 			this->Btn_9->TabIndex = 20;
+			this->Btn_9->TabStop = false;
 			this->Btn_9->Text = L"9";
 			this->Btn_9->UseVisualStyleBackColor = false;
 			this->Btn_9->Click += gcnew System::EventHandler(this, &Calculator::Btn_9_Click);
@@ -300,6 +307,7 @@ namespace calculator
 			this->Btn_8->Name = L"Btn_8";
 			this->Btn_8->Size = System::Drawing::Size(80, 80);
 			this->Btn_8->TabIndex = 21;
+			this->Btn_8->TabStop = false;
 			this->Btn_8->Text = L"8";
 			this->Btn_8->UseVisualStyleBackColor = false;
 			this->Btn_8->Click += gcnew System::EventHandler(this, &Calculator::Btn_8_Click);
@@ -314,6 +322,7 @@ namespace calculator
 			this->Btn_7->Name = L"Btn_7";
 			this->Btn_7->Size = System::Drawing::Size(80, 80);
 			this->Btn_7->TabIndex = 22;
+			this->Btn_7->TabStop = false;
 			this->Btn_7->Text = L"7";
 			this->Btn_7->UseVisualStyleBackColor = false;
 			this->Btn_7->Click += gcnew System::EventHandler(this, &Calculator::Btn_7_Click);
@@ -328,6 +337,7 @@ namespace calculator
 			this->Btn_dot->Name = L"Btn_dot";
 			this->Btn_dot->Size = System::Drawing::Size(80, 80);
 			this->Btn_dot->TabIndex = 17;
+			this->Btn_dot->TabStop = false;
 			this->Btn_dot->Text = L".";
 			this->Btn_dot->UseVisualStyleBackColor = false;
 			this->Btn_dot->Click += gcnew System::EventHandler(this, &Calculator::Btn_dot_Click);
@@ -342,6 +352,7 @@ namespace calculator
 			this->Btn_0->Name = L"Btn_0";
 			this->Btn_0->Size = System::Drawing::Size(80, 80);
 			this->Btn_0->TabIndex = 18;
+			this->Btn_0->TabStop = false;
 			this->Btn_0->Text = L"0";
 			this->Btn_0->UseVisualStyleBackColor = false;
 			this->Btn_0->Click += gcnew System::EventHandler(this, &Calculator::Btn_0_Click);
@@ -356,6 +367,7 @@ namespace calculator
 			this->Btn_sign->Name = L"Btn_sign";
 			this->Btn_sign->Size = System::Drawing::Size(80, 80);
 			this->Btn_sign->TabIndex = 19;
+			this->Btn_sign->TabStop = false;
 			this->Btn_sign->Text = L"+/-";
 			this->Btn_sign->UseVisualStyleBackColor = false;
 			this->Btn_sign->Click += gcnew System::EventHandler(this, &Calculator::Btn_sign_Click);
@@ -369,6 +381,7 @@ namespace calculator
 			this->Btn_equals->Name = L"Btn_equals";
 			this->Btn_equals->Size = System::Drawing::Size(80, 80);
 			this->Btn_equals->TabIndex = 12;
+			this->Btn_equals->TabStop = false;
 			this->Btn_equals->Text = L"=";
 			this->Btn_equals->UseVisualStyleBackColor = false;
 			this->Btn_equals->Click += gcnew System::EventHandler(this, &Calculator::Btn_equals_Click);
@@ -383,6 +396,7 @@ namespace calculator
 			this->Btn_multiply->Name = L"Btn_multiply";
 			this->Btn_multiply->Size = System::Drawing::Size(80, 80);
 			this->Btn_multiply->TabIndex = 13;
+			this->Btn_multiply->TabStop = false;
 			this->Btn_multiply->Text = L"×";
 			this->Btn_multiply->UseVisualStyleBackColor = false;
 			this->Btn_multiply->Click += gcnew System::EventHandler(this, &Calculator::Btn_multiply_Click);
@@ -397,6 +411,7 @@ namespace calculator
 			this->Btn_minus->Name = L"Btn_minus";
 			this->Btn_minus->Size = System::Drawing::Size(80, 80);
 			this->Btn_minus->TabIndex = 14;
+			this->Btn_minus->TabStop = false;
 			this->Btn_minus->Text = L"-";
 			this->Btn_minus->UseVisualStyleBackColor = false;
 			this->Btn_minus->Click += gcnew System::EventHandler(this, &Calculator::Btn_minus_Click);
@@ -411,6 +426,7 @@ namespace calculator
 			this->Btn_plus->Name = L"Btn_plus";
 			this->Btn_plus->Size = System::Drawing::Size(80, 80);
 			this->Btn_plus->TabIndex = 15;
+			this->Btn_plus->TabStop = false;
 			this->Btn_plus->Text = L"+";
 			this->Btn_plus->UseVisualStyleBackColor = false;
 			this->Btn_plus->Click += gcnew System::EventHandler(this, &Calculator::Btn_plus_Click);
@@ -425,6 +441,7 @@ namespace calculator
 			this->Btn_divide->Name = L"Btn_divide";
 			this->Btn_divide->Size = System::Drawing::Size(80, 80);
 			this->Btn_divide->TabIndex = 11;
+			this->Btn_divide->TabStop = false;
 			this->Btn_divide->Text = L"÷";
 			this->Btn_divide->UseVisualStyleBackColor = false;
 			this->Btn_divide->Click += gcnew System::EventHandler(this, &Calculator::Btn_divide_Click);
@@ -439,6 +456,7 @@ namespace calculator
 			this->Btn_sqr->Name = L"Btn_sqr";
 			this->Btn_sqr->Size = System::Drawing::Size(80, 80);
 			this->Btn_sqr->TabIndex = 10;
+			this->Btn_sqr->TabStop = false;
 			this->Btn_sqr->Text = L"sqr(x)";
 			this->Btn_sqr->UseVisualStyleBackColor = false;
 			this->Btn_sqr->Click += gcnew System::EventHandler(this, &Calculator::Btn_sqr_Click);
@@ -453,6 +471,7 @@ namespace calculator
 			this->Btn_sqrt->Name = L"Btn_sqrt";
 			this->Btn_sqrt->Size = System::Drawing::Size(80, 80);
 			this->Btn_sqrt->TabIndex = 9;
+			this->Btn_sqrt->TabStop = false;
 			this->Btn_sqrt->Text = L"sqrt(x)";
 			this->Btn_sqrt->UseVisualStyleBackColor = false;
 			this->Btn_sqrt->Click += gcnew System::EventHandler(this, &Calculator::Btn_sqrt_Click);
@@ -467,6 +486,7 @@ namespace calculator
 			this->Btn_erase->Name = L"Btn_erase";
 			this->Btn_erase->Size = System::Drawing::Size(80, 80);
 			this->Btn_erase->TabIndex = 8;
+			this->Btn_erase->TabStop = false;
 			this->Btn_erase->Text = L"⌫";
 			this->Btn_erase->UseVisualStyleBackColor = false;
 			this->Btn_erase->Click += gcnew System::EventHandler(this, &Calculator::Btn_erase_Click);
@@ -481,6 +501,7 @@ namespace calculator
 			this->Btn_CE->Name = L"Btn_CE";
 			this->Btn_CE->Size = System::Drawing::Size(80, 80);
 			this->Btn_CE->TabIndex = 7;
+			this->Btn_CE->TabStop = false;
 			this->Btn_CE->Text = L"CE";
 			this->Btn_CE->UseVisualStyleBackColor = false;
 			this->Btn_CE->Click += gcnew System::EventHandler(this, &Calculator::Btn_CE_Click);
@@ -495,6 +516,7 @@ namespace calculator
 			this->Btn_C->Name = L"Btn_C";
 			this->Btn_C->Size = System::Drawing::Size(80, 80);
 			this->Btn_C->TabIndex = 6;
+			this->Btn_C->TabStop = false;
 			this->Btn_C->Text = L"C";
 			this->Btn_C->UseVisualStyleBackColor = false;
 			this->Btn_C->Click += gcnew System::EventHandler(this, &Calculator::Btn_C_Click);
@@ -521,6 +543,7 @@ namespace calculator
 			this->Btn_memory_substract->Name = L"Btn_memory_substract";
 			this->Btn_memory_substract->Size = System::Drawing::Size(50, 50);
 			this->Btn_memory_substract->TabIndex = 0;
+			this->Btn_memory_substract->TabStop = false;
 			this->Btn_memory_substract->Text = L"M-";
 			this->Btn_memory_substract->UseVisualStyleBackColor = false;
 			this->Btn_memory_substract->Click += gcnew System::EventHandler(this, &Calculator::Btn_memory_substract_Click);
@@ -534,6 +557,7 @@ namespace calculator
 			this->Btn_memory_add->Name = L"Btn_memory_add";
 			this->Btn_memory_add->Size = System::Drawing::Size(50, 50);
 			this->Btn_memory_add->TabIndex = 1;
+			this->Btn_memory_add->TabStop = false;
 			this->Btn_memory_add->Text = L"M+";
 			this->Btn_memory_add->UseVisualStyleBackColor = false;
 			this->Btn_memory_add->Click += gcnew System::EventHandler(this, &Calculator::Btn_memory_add_Click);
@@ -547,6 +571,7 @@ namespace calculator
 			this->Btn_memory_save->Name = L"Btn_memory_save";
 			this->Btn_memory_save->Size = System::Drawing::Size(50, 50);
 			this->Btn_memory_save->TabIndex = 2;
+			this->Btn_memory_save->TabStop = false;
 			this->Btn_memory_save->Text = L"MS";
 			this->Btn_memory_save->UseVisualStyleBackColor = false;
 			this->Btn_memory_save->Click += gcnew System::EventHandler(this, &Calculator::Btn_memory_save_Click);
@@ -561,6 +586,7 @@ namespace calculator
 			this->Btn_memory_recall->Name = L"Btn_memory_recall";
 			this->Btn_memory_recall->Size = System::Drawing::Size(50, 50);
 			this->Btn_memory_recall->TabIndex = 3;
+			this->Btn_memory_recall->TabStop = false;
 			this->Btn_memory_recall->Text = L"MR";
 			this->Btn_memory_recall->UseVisualStyleBackColor = false;
 			this->Btn_memory_recall->Click += gcnew System::EventHandler(this, &Calculator::Btn_memory_recall_Click);
@@ -575,6 +601,7 @@ namespace calculator
 			this->Btn_memory_clear->Name = L"Btn_memory_clear";
 			this->Btn_memory_clear->Size = System::Drawing::Size(50, 50);
 			this->Btn_memory_clear->TabIndex = 4;
+			this->Btn_memory_clear->TabStop = false;
 			this->Btn_memory_clear->Text = L"MC";
 			this->Btn_memory_clear->UseVisualStyleBackColor = false;
 			this->Btn_memory_clear->Click += gcnew System::EventHandler(this, &Calculator::Btn_memory_clear_Click);
@@ -618,6 +645,7 @@ namespace calculator
 			this->Btn_MC_real->Name = L"Btn_MC_real";
 			this->Btn_MC_real->Size = System::Drawing::Size(122, 50);
 			this->Btn_MC_real->TabIndex = 40;
+			this->Btn_MC_real->TabStop = false;
 			this->Btn_MC_real->Text = L"MC President";
 			this->Btn_MC_real->UseVisualStyleBackColor = false;
 			this->Btn_MC_real->Click += gcnew System::EventHandler(this, &Calculator::Btn_MC_real_Click);
@@ -789,14 +817,57 @@ namespace calculator
 			this->Controls->Add(this->Btn_2);
 			this->Controls->Add(this->Btn_1);
 			this->HelpButton = true;
+			this->KeyPreview = true;
 			this->Name = L"Calculator";
 			this->Load += gcnew System::EventHandler(this, &Calculator::Form1_Load);
+			this->KeyPress += gcnew System::Windows::Forms::KeyPressEventHandler(this, &Calculator::OnKeyPress);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->mc))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
+
+	private: System::Void OnKeyPress(System::Object^ sender, System::Windows::Forms::KeyPressEventArgs^ e)
+	{
+		switch (e->KeyChar)
+		{
+			case '0':
+			case '1':
+			case '2':
+			case '3':
+			case '4':
+			case '5':
+			case '6':
+			case '7':
+			case '8':
+			case '9':
+				WriteNewNum(e->KeyChar);
+				return;
+			case '+':
+			case '-':
+			case '*':
+			case '/':
+				Operation = e->KeyChar;
+				WriteOperation();
+				return;
+			case '=':
+			case '\r':
+				Btn_equals->PerformClick();
+				break;
+			case '.':
+			case ',':
+				Btn_dot->PerformClick();
+				return;
+			case '\b':
+				Btn_erase->PerformClick();
+				return;
+			case 'c':
+			case 'C':
+				Btn_C->PerformClick();
+				return;
+		}
+	}
 	private: enum class ButtonTypes
 	{
 		Digit,
@@ -845,9 +916,8 @@ namespace calculator
 	}
 
 #pragma region digits
-	private: void WriteNewNum(String^ digit)
+	private: void WriteNewNum(char digit)
 	{
-		String^ temp;
 		if (Text1->Text == "0" || LastButtonType == ButtonTypes::Equals || LastButtonType == ButtonTypes::Operation)
 		{
 			if (isError)
@@ -855,52 +925,52 @@ namespace calculator
 				isError = false;
 				ToggleOperations(true);
 			}			
-			Text1->Text = digit;
+			Text1->Text = ((Char)digit).ToString();
 		}
 		else
-			Text1->Text = Text1->Text + Convert::ToString(digit);
+			Text1->Text = Text1->Text + (Char)digit;
 		LastButtonType = ButtonTypes::Digit;
 	}
 
 	private: System::Void Btn_1_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("1");
+		WriteNewNum('1');
 	}
 	private: System::Void Btn_2_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("2");
+		WriteNewNum('2');
 	}
 	private: System::Void Btn_3_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("3");
+		WriteNewNum('3');
 	}
 	private: System::Void Btn_4_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("4");
+		WriteNewNum('4');
 	}
 	private: System::Void Btn_5_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("5");
+		WriteNewNum('5');
 	}
 	private: System::Void Btn_6_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("6");
+		WriteNewNum('6');
 	}
 	private: System::Void Btn_7_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("7");
+		WriteNewNum('7');
 	}
 	private: System::Void Btn_8_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("8");
+		WriteNewNum('8');
 	}
 	private: System::Void Btn_9_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("9");
+		WriteNewNum('9');
 	}
 	private: System::Void Btn_0_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		WriteNewNum("0");
+		WriteNewNum('0');
 	}
 #pragma endregion
 #pragma region signs
@@ -971,14 +1041,16 @@ namespace calculator
 	}
 	private: System::Void Btn_equals_Click(System::Object^ sender, System::EventArgs^ e)
 	{
+		if (!isOperationClicked)
+		{
+			Text2->Text = Text1->Text + " =";
+			return;
+		}
+
 		if (LastButtonType == ButtonTypes::Equals)
 		{
 			N1 = Double::Parse(Text1->Text);
 			Text2->Text = Text1->Text + Text2->Text->Remove(0, Text2->Text->IndexOf(' '));
-		}
-		else if (!isOperationClicked)
-		{
-			Text2->Text = Text1->Text + " =";
 		}
 		else
 		{
@@ -1001,11 +1073,13 @@ namespace calculator
 	private: System::Void Btn_CE_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		Text1->Text = "0";
+		isOperationClicked = false;
 	}
 	private: System::Void Btn_C_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		Text1->Text = "0";
 		Text2->Text = "";
+		isOperationClicked = false;
 	}
 	private: System::Void Btn_dot_Click(System::Object^ sender, System::EventArgs^ e)
 	{
