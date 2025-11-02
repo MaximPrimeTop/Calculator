@@ -123,17 +123,21 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Calculator.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Calculator.resx">
-      <DependentUpon>Calculator.h</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ItemGroup>
+    <ImageFiles Include="images\**\*.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculator.h">
+	  <FileType>CppForm</FileType>
+	</ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Calculator.resx" />
+  </ItemGroup>
+  <Target Name="images" AfterTargets="Build">
+    <Copy SourceFiles="@(ImageFiles)" DestinationFolder="$(OutDir)images\%(RecursiveDir)" />
+  </Target>
 </Project>
