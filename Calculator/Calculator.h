@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 
 namespace calculator
 {
@@ -1620,7 +1620,7 @@ private: System::Windows::Forms::Button^ Btn_power;
 			case '-':
 			case '*':
 			case '/':
-				Operation = e->KeyChar;
+				Operation = c;
 				WriteOperation();
 				return;
 			case '=':
